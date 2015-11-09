@@ -1,0 +1,31 @@
+Q. How did viewing a diff help find the bug?
+A. Isolated changes
+Only had to look through changes
+
+
+Q. How could having easy access to the entire history of a file
+make you a more efficient programmer in the long term?
+A. Save time finding errors
+Try different approaches without having to keep all in file
+Remove need to save manual copies
+
+Q. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+A. Pros:
+Keep logical changes together
+B. Cons:
+You might lose work if not committed
+
+Q. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A. Git is specifically designed to assist with coding version control
+where you might have multiple related files.
+Dropbox keeps versions more as a safety precaution against losing work
+
+Q.How can you use the commands git log and git diff to view the history of files?
+A. You can use log to see where changes were made you are looking for.
+Then use diff to see what changed.
+
+Q.How might using version control make you more confident to make changes that could break something?
+A. You can always trace back to the last working version and restore it.
+
+Q. Now that you have your workspace set up, what do you want to try using Git for?
+A. Doing Machine learning course
