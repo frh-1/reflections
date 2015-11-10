@@ -1,3 +1,17 @@
 Q. What happens when you initialize a repository? Why do you need to do it?
 A. Git creates its log files and is now ready to start tracking.
 
+Q. How can you use the staging area to make sure you have one commit per logical change?
+A. You can compare the staged version with your working directory
+using: gitt diff
+You can compare your staged version with the last commit using: gitt diff --staged
+
+Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A. If you want to experiment with different features.
+A Branch keeps the master copy unchanged, giving you a branch copy in which
+to experiment.
+
+Q. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A. Pros: Makes it easy to see changes
+Cons: Could be confusing because Git doesn't know the logic of changes. Could include
+different changes that do not make coherent sense.
